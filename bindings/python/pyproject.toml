@@ -1,0 +1,13 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "proprio"
+version = "0.1.0"
+description = "Python client for Proprio IPC framework"
+requires-python = ">=3.7"
+dependencies = []
+
+[project.scripts]
+# We can add CLI tools here later
